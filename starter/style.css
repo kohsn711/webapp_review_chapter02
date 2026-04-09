@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+  background: #17131d;
+  color: #fff7ea;
+}
+
+.page {
+  max-width: 960px;
+  margin: 36px auto 48px;
+  padding: 0 16px;
+}
+
+.page-header,
+.panel {
+  margin-bottom: 24px;
+}
+
+.nav-links a,
+.page-header h1,
+.panel h2,
+.score-form button,
+.score-table th {
+  font-family: "Arial Black", "Impact", "Hiragino Kaku Gothic StdN", sans-serif;
+}
+
+.site-nav {
+  margin-bottom: 24px;
+  padding: 12px 16px;
+  background: #f6efe2;
+  border: 3px solid #111111;
+  box-shadow: 8px 8px 0 #18e7ff;
+}
+
+.nav-links a {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 8px 12px;
+  border: 3px solid #111111;
+  background: #d6ff38;
+  color: #111111;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 4px 4px 0 #ff5f87;
+}
+
+.nav-links a.current {
+  background: #ff5f87;
+}
+
+.nav-links a:hover {
+  background: #18e7ff;
+}
+
+.page-header {
+  padding: 120px 24px 24px;
+  background-color: #111111;
+  background-image: url("./score-header.svg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #d6ff38;
+  box-shadow: 12px 12px 0 #ff5f87;
+}
+
+.page-header h1,
+.panel h2 {
+  margin-top: 0;
+}
+
+.page-header h1 {
+  margin-bottom: 12px;
+  color: #d6ff38;
+  font-size: 56px;
+  letter-spacing: 0.08em;
+  line-height: 0.95;
+  text-shadow: 3px 3px 0 #ff5f87;
+}
+
+.page-header p {
+  margin-bottom: 0;
+  max-width: 680px;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.panel {
+  background: #f6efe2;
+  color: #111111;
+  border: 3px solid #111111;
+  padding: 24px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.28);
+}
+
+.panel h2 {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 4px 10px;
+  background: #d6ff38;
+  color: #111111;
+  letter-spacing: 0.06em;
+  box-shadow: 4px 4px 0 #111111;
+}
+
+.score-form label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.score-form input,
+.score-form textarea,
+.score-form button {
+  font: inherit;
+}
+
+.score-form input,
+.score-form textarea {
+  width: 100%;
+  display: block;
+  margin-top: 8px;
+  padding: 12px;
+  border: 3px solid #111111;
+  background: #fffaf1;
+}
+
+.score-form input:focus,
+.score-form textarea:focus {
+  outline: 3px solid #18e7ff;
+  outline-offset: 2px;
+}
+
+.score-form button {
+  padding: 12px 18px;
+  border: 3px solid #111111;
+  background: #d6ff38;
+  color: #111111;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  box-shadow: 6px 6px 0 #ff5f87;
+}
+
+.score-form button:hover {
+  background: #ff5f87;
+  box-shadow: 6px 6px 0 #18e7ff;
+}
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.score-table th,
+.score-table td {
+  padding: 12px;
+  border-bottom: 3px solid #111111;
+  text-align: left;
+  vertical-align: top;
+}
+
+.score-table th {
+  background: #111111;
+  color: #d6ff38;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 640px) {
+  .page {
+    margin: 20px auto;
+    padding: 0 10px 110px;
+  }
+
+  .site-nav {
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: 10;
+    padding: 12px;
+    margin-bottom: 0;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 10px;
+  }
+
+  .nav-links a {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+  }
+
+  .page-header {
+    padding: 88px 16px 20px;
+    box-shadow: 8px 8px 0 #ff5f87;
+  }
+
+  .page-header h1 {
+    font-size: 36px;
+  }
+
+  .panel {
+    padding: 16px;
+  }
+
+  .score-table {
+    display: block;
+    overflow-x: auto;
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">ゲームの点数記録ページのヘッダー背景画像</title>
+  <desc id="desc">左側に余白を残し、右側に控えめなスコアボードとアクセントを置いたシンプルなヘッダー背景画像</desc>
+  <rect width="1200" height="520" fill="#17131d" />
+  <path d="M0 66 L1200 0 L1200 74 L0 140 Z" fill="#ff5f87" opacity="0.32" />
+  <path d="M0 430 L1200 350 L1200 520 L0 520 Z" fill="#18e7ff" opacity="0.26" />
+  <path d="M712 94 L1138 58" stroke="#d6ff38" stroke-width="6" stroke-dasharray="14 16" opacity="0.5" />
+  <path d="M820 286 L1154 246" stroke="#ff5f87" stroke-width="8" opacity="0.32" />
+  <rect x="748" y="116" width="286" height="120" fill="#111111" stroke="#d6ff38" stroke-width="8" opacity="0.92" />
+  <rect x="766" y="134" width="250" height="84" fill="#221b2b" stroke="#18e7ff" stroke-width="5" opacity="0.96" />
+  <text x="794" y="168" font-family="'Arial Black', 'Impact', sans-serif" font-size="22" letter-spacing="4" fill="#f6efe2" opacity="0.9">HIGH SCORE</text>
+  <text x="792" y="204" font-family="'Arial Black', 'Impact', sans-serif" font-size="44" font-weight="700" fill="#d6ff38" opacity="0.96">15,600</text>
+  <rect x="880" y="306" width="196" height="84" rx="12" fill="#111111" stroke="#f6efe2" stroke-width="6" opacity="0.7" />
+  <circle cx="932" cy="348" r="14" fill="#ff5f87" opacity="0.9" />
+  <rect x="956" y="342" width="34" height="12" rx="6" fill="#f6efe2" opacity="0.9" />
+  <circle cx="1018" cy="336" r="8" fill="#18e7ff" opacity="0.9" />
+  <circle cx="1036" cy="360" r="8" fill="#d6ff38" opacity="0.9" />
+  <circle cx="1096" cy="112" r="10" fill="#18e7ff" opacity="0.56" />
+  <circle cx="1124" cy="146" r="8" fill="#ff5f87" opacity="0.56" />
+  <circle cx="1092" cy="178" r="7" fill="#d6ff38" opacity="0.56" />
+</svg>
