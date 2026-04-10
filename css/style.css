@@ -59,7 +59,7 @@ body {
 .page-header {
   padding: 120px 24px 24px;
   background-color: #111111;
-  background-image: url("./score-header.svg");
+  background-image: url("../image/score-header.svg");
   background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
